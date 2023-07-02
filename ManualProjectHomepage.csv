@@ -1,0 +1,83 @@
+INDIAN COFFEE HOUSE,,,,,,
+Type : Business website,,,,Tested by : RAHUL R,,
+Verified by : Rugma Raghav,,,,Date : 17/06/2023,,
+Browser name : Google chrome,,,,Browser version : 114.0.5735.134,,
+          Home Page,,,,,,
+TEST ID,TEST DESCRIPTION,TEST PROCEDURE,TEST DATA,EXPECTED RESULT,ACTUAL RESULT,STATUS
+IND_HM_01,Check whether the website link is properly loading,1.Click on the website link,https://www.indiancoffeehouse.com,Should load the website home page,Home page is loaded,Pass
+IND_HM_02,"Check whether the Page title is clear and in readable form
+","1.open Indian coffee house site home page
+2.Look for Page title
+3.Try to read",N/A,Should be clear and readable,Page title is not clear and readable unless we zoom in the same,Fail
+IND_HM_03,"Check whether the Logo is clear and readable
+","1.open home page
+2.Look for Logo",N/A,Should be clear and readable,Logo is not clear and readable unless we zoom in the same,Fail
+IND_HM_04,Check whether the site is secure,"1.open home page
+2.Look for  https in URL
+3.Check by taking different link options",https://www.indiancoffeehouse.com,Site should be secure,Site is not secure,Fail
+IND_HM_05,Check whether the site is responsive,"1.open site in more devices
+2.Look for page behaviour
+3.look how page works in zoom in and zoom out",N/A,Site should be responsive,site is responsive,pass
+IND_HM_06,Check whether tool tip functionality is working,"1.open Indian coffee house site
+2.Move mouse tips to fields and check",N/A,Tool tip functionality should work,Tool tip functionality is working,pass
+IND_HM_07,Check whether every link in the page is working,"1.open home page
+2.Check the links",N/A,Every links should be redirected to its corresponding page,some of the links are not redirecting,fail
+IND_HM_08,Check whether alignment of the page is perfect,"1.open home page
+2.Look  alignment of the page",N/A,alignment of the page should be perfect,alignment of the page is perfect,pass
+IND_HM_09,Check whether mandatory fields having asterick symbol,"1.open home page
+2.Check for asterick symbol",N/A,Asterick symbol should be there for mandatory fields,There is no asterick symbol,fail
+IND_HM_10,Check whether photos of the sites are clearly visible,"1.open Indian coffee house site
+2.Look for photos",N/A,Photos should be clearly visible,Photos are overlapped and clumsy especially when we take the site in mobile,fail
+IND_HM_11,Check whether contents  below who we are portion displayed correctly,"1.open home page
+2.Check the contents",N/A,contents should display correctly,content under founder title is repeated twice,Fail
+IND_HM_12,Check whether Read More button below Who we are portion works properly,"1.open home page
+2.Look for who we are portion
+3.Click Read More button",N/A,Read more button should work properly,Read more button worked properly,pass
+IND_HM_13,Check whether our sustainability portion is present in the home page,"1.open home page
+2.look for Our sustainability portion",N/A,Our sustainability portion should be present,Our sustainability portion is present,pass
+IND_HM_14,Check whether all required fields are present in the enquiry portion,"1.open home page
+2.Look for fields in enquiry portion",N/A,all required fields should be present in the enquiry portion,all required fields are present,pass
+IND_HM_15,Check whether name field in enquiry portion only accepts alphabet values ,"1.open home page
+2.Look for enquiry portion
+3.Enter a name consisting of all characters including special and numeric contents",Ram@123#,Should only accept alphabet values,accepting all type of values ,fail
+IND_HM_16,Check whether phone number field in enquiry portion only accepts numeric values ,"1.open home page
+2.Look for enquiry portion
+3.Enter number including characters and symbols",9847&*#Abc,Should only accept numeric values,accepting all type of values ,fail
+IND_HM_17,Check whether  dropdown selection facility  is available in country field,"1.open home page
+2.Look for enquiry portion
+3.Click on country field and look for drop down selection facility",N/A,dropdown selection facility should be present, dropdown selection facility is not present,fail
+IND_HM_18,Check whether the Submit button in the enquiry field works properly,"1.open home page
+2.Look for enquiry portion
+3.Enter values in fields
+4.Click on submit button","Joseph
+9845775461
+Chennai
+India",Submit button should work properly,Submit button is not working,fail
+IND_HM_19,Check whether all required fields are present in the complaint portion,"1.open home page
+2.Look for fields in complaint portion",N/A,all required fields should be present in the enquiry portion,all required fields are present,pass
+IND_HM_20,Check whether  dropdown selection facility  is available in select branch field of complaint portion,"1.open home page
+2.Look for complaint portion
+3.Click on select branch field and look for dropdown selection facility",N/A,dropdown selection facility should be present, dropdown selection facility is not present,fail
+IND_HM_21,Check whether Description field in the complaint portion works properly,"1.open home page
+2.Look for complaint portion
+3.Click on the description field
+4.Write a complaint",Mutton dishes are not present in your menu list,Description field should work properly,Description field is working properly,pass
+IND_HM_22,Check whether paper clip icon is present in the attachments field of complaint portion to upload files,"1.open home page
+2.Look for complaint portion
+3.Click on attachments field
+4.Look for paper clip icon to upload files",N/A,Paper clip icon for uploading files should be present,Paper clip icon for uploading files is not present,fail
+IND_HM_23,Check whether the Submit button in the complaint field works properly,"1.open home page
+2.Look for enquiry portion
+3.Enter values in fields
+4.Click on submit button","Palakkad 
+Mutton dishes are not present in your menu list",Submit button should work properly,Submit button is not working,fail
+IND_HM_24,Check whether updated news are shown in Latest News field,"1.open home page
+2.Look for Latest News field
+3.Check the News",N/A,News should be up -to- date,News are not up-to-date,Fail
+IND_HM_25,Check whether search field is available in the bottom of the page to get  branch location details,"1.open home page
+2.Look for search field in the bottom of the page",N/A,Search field should be present,Search field is present,pass
+IND_HM_26,Check whether the search field is redirecting to branch link while clicking in the search button without giving any data,"1.open home page
+2.Look for search field in the bottom of the page
+3.Click on search button",N/A,Search field should not redirect to branch link  while clicking search button without giving any data,redirecting to branch link without giving any data,Fail
+IND_HM_27,Check whether useful links are displayed at the bottom of the page,"1.open home page
+1.Look for useful links at the bottom of the page",N/A, should  display useful links,Useful links are displayed,pass
