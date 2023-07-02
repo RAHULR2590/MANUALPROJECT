@@ -1,0 +1,55 @@
+INDIAN COFFEE HOUSE,,,,,,
+Type : Business website,,,,Tested by : RAHUL R,,
+Verified by : Rugma Raghav,,,,Date : 17/06/2023,,
+Browser name : Google chrome,,,,Browser version : 114.0.5735.134,,
+                         Branches,,,,,,
+TEST ID,TEST DESCRIPTION,TEST PROCEDURE,TEST DATA,EXPECTED RESULT,ACTUAL RESULT,STATUS
+IND_BS_01,Check whether Branches page title is correctly displayed in the page,"1.open Branches page option
+2.Look for page title",N/A,Branches page title should  display correctly,Branches page title is displayed twice,Fail
+IND_BS_02,Check whether the search button works without giving any input,"1.open Branches page option
+2.Look for search button
+3.Click search button without giving any input",N/A,Should display error or warning message ,No error message or warning message is displayed,Fail
+IND_BS_03,Check whether search field contains dropdown button & search field info,"1.open Branches page option
+2.Look for search field
+3.Check dropdown button and search field info",N/A,Search field should contain dropdown button and search field info,Search field contains dropdown button and search field info,Pass
+IND_BS_04,Check whether states where indian coffee house branches are present can be selected in state search field,"1.open Branches page option
+2.Look for state search field
+3.Select state using dropdown button",Kerala,All states with indian coffee house branches should be present in state selection field,Only one state option(Kerala) is present ,Fail
+IND_BS_05,Check whether search field can be edited before searching with the use of dropdown if we are given wrong entries for search ,"1.open Branches page option
+2.Look for  search field
+3.Select wrong entries using dropdown button","Kerala
+Aiappuzha
+Guruvayoor",Edit option should be available if values entered are wrong using dropdown button,No edit option found,Fail
+IND_BS_06,Check whether search field can be edited before searching using retyping option if we are given wrong entries for search ,"1.open Branches page option
+2.Look for  search field
+3.Select wrong entries using dropdown button","Kerala
+Aiappuzha
+Guruvayoor/Chenganoor",Retyping option should be available if values entered are wrong using dropdown button,Retyping option is available,Pass
+IND_BS_07,Check whether error message is shown for wrong entry search,"1.open Branches page option
+2.Look for  search field
+3.Select wrong entries using dropdown button
+4.Click search button","Kerala
+Ernakulam
+Thampanoor",Should display error message ,No error message  is displayed,Fail
+IND_BS_08,Check whether correct results are shown if we enter correct values for search,"1.open Branches page option
+2.Look for  search field
+3.Select correct entries using dropdown button
+4.Click search button","Kerala
+Thrissur
+Chalakkudy",Should  display correct result,Correct result is displayed,Pass
+IND_BS_09,"Check whether subtitle ""Our branches across India"" is suitable for branches page","1.open branches page option
+2.Look for subtitle ""Our branches across India""",N/A,"""Our branches across India"" subtitle is not suitable because page only displays  branches across kerala",Displayed wrong Subtitle,Fail
+IND_BS_10,Check whether search results contains the correct photo belongs to the searched Indian coffee house,"1.open branches page option
+2.Select entries using dropdown button
+3.Click search button
+4.Check photos in search results",N/A,Should display corresponding photo belongs to the searched indian coffee house,Displayed the same photo for each search results which is not belongs to the searched coffee house,Fail
+IND_BS_11,Check whether search results contains the correct google map link or location link belongs to the searched Indian coffee house,"1.open branches page option
+2.Select entries using dropdown button
+3.Click search button
+4.Check google map links or loction links in search results",N/A,Should display Proper google map link or Location link ,No link is displayed properly,Fail
+IND_BS_12,Check whether  all  Indian coffee house addresses are displayed properly,"1.open branches page option
+2.Select entries using dropdown button
+3.Click search button
+4.Check Address of each coffee house",N/A,Should display all addresses correctly,Mistakes found in addresses,Fail
+IND_BS_13,Check whether the alignment of the branches page is proper,"1.open branches page
+2.Look for alignment",N/A,Alignment should be proper,Alignment is proper,pass
