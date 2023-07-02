@@ -1,0 +1,20 @@
+INDIAN COFFEE HOUSE,,,,,,
+Type : Business website,,,,Tested by : RAHUL R,,
+Verified by : Rugma Raghav,,,,Date : 17/06/2023,,
+Browser name : Google chrome,,,,Browser version : 114.0.5735.134,,
+ Gallery,,,,,,
+TEST ID,TEST DESCRIPTION,TEST PROCEDURE,TEST DATA,EXPECTED RESULT,ACTUAL RESULT,STATUS
+IND_GL_01,Check whether Gallery page title is correctly displayed in the page,"1.open Gallery page option
+2.Look for page title",N/A,Gallery page title should  display correctly,Gallery page title is displayed twice,Fail
+IND_GL_02,Check whether the photos are displayed directly in the gallery,"1.open Gallery page option
+2.Look for photos",N/A,Photos should display directly in the gallery,No photos are displayed directly in gallery,Fail
+IND_GL_03,Check whether the way of approach of displaying photos while clicking search button is apt for a gallery page,"1.open Gallery page option
+2.Look for photos
+3.Click search button",N/A,The way of displaying photos while clicking search button should not be apt for a gallery page,Photos are displayed while clicking search button,Fail
+IND_GL_04,Check whether  photos are displayed correctly while clicking search button,"1.open Gallery page option
+2.Look for photos
+3.Click search button",N/A,Photos should  display correctly,Photos are displayed correctly,Pass
+IND_GL_05,Check whether displayed photos are clear,"1.open Gallery page option
+2.Look for photos
+3.Click search button
+4.Check photo clarity",N/A,Photos should be clear,Photos are clear,Pass
