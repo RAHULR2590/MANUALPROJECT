@@ -1,0 +1,19 @@
+INDIAN COFFEE HOUSE,,,,,,
+Type : Business website,,,,Tested by : RAHUL R,,
+Verified by : Rugma Raghav,,,,Date : 17/06/2023,,
+Browser name : Google chrome,,,,Browser version : 114.0.5735.134,,
+                 News update,,,,,,
+TEST ID,TEST DESCRIPTION,TEST PROCEDURE,TEST DATA,EXPECTED RESULT,ACTUAL RESULT,STATUS
+IND_NU_01,Check whether News update page title is correctly displayed in the page,"1.open News update page option
+2.Look for page title",N/A,News update page title should  display correctly,News update page title is displayed twice,Fail
+IND_NU_02,Check whether the news given in the News update page is up-to-date,"1.open News update page option
+2.Look for news given
+3.Check the news given",N/A,News given in the News update page should be up-to-date,News given in the News update page are not up-to-date,Fail
+IND_NU_03,Check whether the photos given in the News update page can be selected to view,"1.open News update page option
+2.Look for news given
+3.Select the photos in the news given",N/A,Photos should be viewed when selected,Can't able to select photos for viewing,Fail
+IND_NU_04,Check whether the news & photos given in the News update page are proper,"1.open News update page option
+2.Look for news given
+3.Check the news and photos given",N/A,News and photos given should be proper,Same news and photos are given twice,Fail
+IND_NU_05,Check whether the alignment of the page is proper,"1.open News update page option
+2.Check alignment of the page",N/A,Alignment should be proper,Alignment is proper,Pass
