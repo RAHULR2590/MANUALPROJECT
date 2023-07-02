@@ -1,0 +1,174 @@
+INDIAN COFFEE HOUSE,,,,,,,,
+"Reported to : Rugma Raghav
+Identified by : Rahul R
+Date : 17/06/2023
+Enviroment details : Google Chrome Version 114.0.5735.134
+",,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+BUG ID,TEST ID,EXPECTED RESULT,BUG DESCRIPTION,STEPS TO REPRODUCE,SEVERITY,PRIORITY,SCREENSHOT,STATUS
+IND_01,IND_HM_01,Page title should be clear and readable,Page title is not clear and readable unless we zoom in the same,"1.open Indian coffee house site home page
+2.Look for Page title
+3.Try to read",Minor,High,https://drive.google.com/file/d/1KOeBJP2Q45iIKtzmvxlp-Rm0ZX2uCLRe/view?usp=sharing,New
+IND_02,IND_HM_02,Logo should be clear and readable,Logo is not clear and readable unless we zoom in the same,"1.open home page
+2.Look for Logo",Minor,High,https://drive.google.com/file/d/1FH76IteWdOXAB2JsZrl5dVvNYugTZ_QD/view?usp=sharing,New
+IND_03,IND_HM_03,Site should be secure,Site is not secure,"1.open home page
+2.Look for  https in URL
+3.Check by taking different link options",Critical,High,https://drive.google.com/file/d/18J5_8Vi9ZsPiF8QAZjNX87gVEgIkVo8f/view?usp=sharing,New
+IND_04,IND_HM_06,Every links should be redirected to its corresponding page,some of the links are not redirecting,"1.open home page
+2.Check the links",Minor,Low,https://drive.google.com/file/d/1xZdQk-ausv2tyDC-IZOSM9MtZQufco9g/view?usp=sharing,New
+IND_05,IND_HM_08,Asterick symbol should be there for mandatory fields,There is no asterick symbol,"1.open home page
+2.Check for asterick symbol",Minor,Low,https://drive.google.com/file/d/1IigYHZOaQ4J2ywXVGT9mKbNhohAGT7qR/view?usp=sharing,New
+IND_06,IND_HM_09,Photos should be clearly visible,Photos are overlapped and clumsy especially when we take the site in mobile,"1.open Indian coffee house site
+2.Look for photos",Minor,Low,https://drive.google.com/file/d/10sN-71bZjuqHvYAv-Ajd31ugNJWxwiXL/view?usp=sharing,New
+IND_07,IND_HM_10,contents below who we are portion should display correctly,content under founder title is repeated twice,"1.open home page
+2.Check the contents",Minor,Low,https://drive.google.com/file/d/17l0O3YECmRvcPePAbTvbcs2XJMTeAg4B/view?usp=sharing,New
+IND_08,IND_HM_14,Name field should only accept alphabet values,Name field accepting all type of values ,"1.open home page
+2.Look for enquiry portion
+3.Enter a name consisting of all characters including special and numeric contents",Minor,Low,https://drive.google.com/file/d/1l3AZcOpoqFBj8aIQaI2zf-bS9VlsV-zi/view?usp=sharing,New
+IND_09,IND_HM_15,Phone number field should only accept numeric values,Phone number field accepting all type of values ,"1.open home page
+2.Look for enquiry portion
+3.Enter number including characters and symbols",Minor,Low,https://drive.google.com/file/d/1MNG7Fz5nSjjajBRbbgI3cj3cqVqCTI-n/view?usp=sharing,New
+IND_10,IND_HM_16,dropdown selection facility should be present in country field, dropdown selection facility is not present,"1.open home page
+2.Look for enquiry portion
+3.Click on country field and look for drop down selection facility",Enhancement,Low,https://drive.google.com/file/d/17_Z6BytTDpgBwkkmWgsFJjUGrbhetqC1/view?usp=sharing,New
+IND_11,IND_HM_17,Submit button should work properly,Submit button is not working,"1.open home page
+2.Look for enquiry portion
+3.Enter values in fields
+4.Click on submit button",Major,High,https://drive.google.com/file/d/1jXpXZIs6jVL7WV1veXTdh8eDnHBXuHzD/view?usp=sharing,New
+IND_12,IND_HM_19,dropdown selection facility should be present in select branch field of complaint portion, dropdown selection facility is not present,"1.open home page
+2.Look for complaint portion
+3.Click on select branch field and look for dropdown selection facility",Major,Medium,https://drive.google.com/file/d/1ftwxSC0CluKH_3aVxG3HGM06WdW46VTy/view?usp=sharing,New
+IND_13,IND_HM_21,Paper clip icon for uploading files should be present in the attachment field of complaint portion,Paper clip icon for uploading files is not present,"1.open home page
+2.Look for complaint portion
+3.Click on attachments field
+4.Look for paper clip icon to upload files",Major,High,https://drive.google.com/file/d/1K7XtWAfN3NlggodFrVlGqLLNThI7C03Y/view?usp=sharing,New
+IND_14,IND_HM_22,Submit button present in complaint portion should work properly,Submit button is not working,"1.open home page
+2.Look for enquiry portion
+3.Enter values in fields
+4.Click on submit button",Major,High,https://drive.google.com/file/d/1BZMKoL6Zx4wBhueBhQsZ-WqvltR99YPk/view?usp=sharing,New
+IND_15,IND_HM_23,News shown should be up -to- date in Latest news portion,News are not up-to-date,"1.open home page
+2.Look for Latest News field
+3.Check the News",Major,Medium,https://drive.google.com/file/d/15Dp858zHCfmVj1bJUqkifRkPux0Q6Ike/view?usp=sharing,New
+IND_16,IND_HM_25,Search field should not redirect to branch link  while clicking search button without giving any data,redirecting to branch link without giving any data,"1.open home page
+2.Look for search field in the bottom of the page
+3.Click on search button",Minor,Low,https://drive.google.com/file/d/1aVnyZEaaeZ6BfH3fqg2wm9lwdipvqeDt/view?usp=sharing,New
+IND_17,IND_WA_03,Should display About us page title  correctly,About us page title is displayed twice,"1.click on Who we are page option
+2.Select About us page
+3.Look for about us page title",Minor,Low,https://drive.google.com/file/d/1xZQkdmO1ZJ285A6Gwvx65O3vT1CzVO4t/view?usp=sharing,New
+IND_18,IND_WA_05,Content below About us should display  correctly,Content is exact copy of the content below Who we are title in home page,"
+1.click on Who we are page option
+2.open About us page
+3.Check the content",Minor,Low,https://drive.google.com/file/d/1qsl3vU3ACFBkqjSdKHe2EfD5aO7Vi1BE/view?usp=sharing,New
+IND_19,IND_WA_07,Should display Historypage title  correctly,History page title is displayed twice,"1.click Who we are page option
+2.Select History page
+3.Look for History page title",Minor,Low,https://drive.google.com/file/d/1qXMDAweRbkR_8wt3_NTgYLwADgBxH910/view?usp=sharing,New
+IND_20,IND_WA_08,Errors and spelling mistakes should not be there in the content of history page,Errors and spelling  mistakes  are there,"1.click on Who we are page option
+2.open History page
+3.Check content errors and mistakes",Trivial,Low,https://drive.google.com/file/d/1N1HWO2zuXgTlFrEmNJ59k7RCdF-6u0rL/view?usp=sharing,New
+IND_21,IND_WA_10,Should display Board of Directors page title  correctly,Board of Directors page title is displayed twice,"1.click Who we are page option
+2.Select Board of Directors page
+3.Look for Board of directors page title",Minor,Low,https://drive.google.com/file/d/1oSNTBZw4R_ZR332ndJReuKx2rIbRD5xX/view?usp=sharing,New
+IND_22,IND_WA_12,Size of the photos given in board of directors page should be same,Size of the photos are not same,"1.click Who we are page option
+2.open Board of Directors page
+3.check size of photos",Minor,Low,https://drive.google.com/file/d/1Yg5N07tIXflgR7PILAyWosrgfgaQQFo7/view?usp=sharing,New
+IND_23,IND_WA_13,Should display About founder page title  correctly,About founder page title is displayed twice,"1.click Who we are page option
+2.Select About founder page
+3.Look for About founder page title",Minor,Low,https://drive.google.com/file/d/1j8B-hHlTBUSWieiXb-ugmn0k6FGPbcxS/view?usp=sharing,New
+IND_24,IND_WA_14,Errors and spelling mistakes should not be there in the content of About founder page,Errors and  mistakes  are there,"1.click on Who we are page option
+2.open About founder page
+3.Check content errors and mistakes",Trivial,Low,https://drive.google.com/file/d/1SBVNWlffvOYm4_z_WLYIBIdbXzOQbcKg/view?usp=sharing,New
+IND_25,IND_WA_15,Image in About founder page should display properly,Image is not displayed properly,"1.click on Who we are page option
+2.open About founder page
+3.Look for image",Minor,Low,https://drive.google.com/file/d/18aPBmJBOmnGBthwG20gIzKvQFAOGItC8/view?usp=sharing,New
+IND_26,IND_WA_17,Should display Message from president page title  correctly,Message from President  page title is displayed twice,"1.click Who we are page option
+2.Select Message from President  page
+3.Look for Message from President  page title",Minor,Low,https://drive.google.com/file/d/1lybb4iCqLpzQVtoOeV8cXfUprZwhyNVo/view?usp=sharing,New
+IND_27,IND_WA_18,Errors and spelling mistakes should not be there in the content of Message from president page,Errors and  mistakes  are there,"1.click on Who we are page option
+2.open Message from President page
+3.Check content errors and mistakes",Trivial,Low,https://drive.google.com/file/d/1sE8zdlhz5WOMsl1Dd1pC9amyU8VjAfCZ/view?usp=sharing,New
+IND_28,IND_WA_19,Alignment of Message from president page should be correct,alignment is not correct,"1.click on Who we are page option
+2.open Message from President page
+3.Look alignment of the page",Trivial,Low,https://drive.google.com/file/d/1cIiKB6FGiBxmbY4Ni6ssM3TS8tTRJHCl/view?usp=sharing,New
+IND_29,IND_WA_21,Should display Message from secretary page title  correctly,Message from Secretary  page title is displayed twice,"1.click Who we are page option
+2.Select Message from Secretary  page
+3.Look for Message from Secreatary  page title",Minor,Low,https://drive.google.com/file/d/1WC5jUHdZ0XSEmRaupAOOwVXQu40DnD7b/view?usp=sharing,New
+IND_30,IND_WA_22,Errors and spelling mistakes should not be there in the content of Message from Secretary page,Errors and  mistakes  are there,"1.click on Who we are page option
+2.open Message from Secretary page
+3.Check content errors and mistakes",Trivial,Low,https://drive.google.com/file/d/1JusiC3fLaXsYUrPc45FKSOhEKoxIKK7I/view?usp=sharing,New
+IND_31,IND_WA_25,Should display Growth history page title  correctly,Growth history  page title is displayed twice,"1.click Who we are page option
+2.Select Growth history  page
+3.Look for Growth history  page title",Minor,Low,https://drive.google.com/file/d/14rxXgatmrh8XAdj6XKgLQQ1KpYDvxFLB/view?usp=sharing,New
+IND_32,IND_WA_26, Content below Growth history should display correctly,Content is exact copy of the content below History in Who are we page option,"
+1.click on Who we are page option
+2.open Growth history page
+3.Check the content",Minor,Low,https://drive.google.com/file/d/1jqmyEwAXnfoSHckET4voNAAxa_Byd8BA/view?usp=sharing,New
+IND_33,IND_WA_27,Errors and spelling mistakes should not be there in the content of Growth history page,Errors and  mistakes  are there,"1.click on Who we are page option
+2.open Growth history page
+3.Check content errors and mistakes",Trivial,Low,https://drive.google.com/file/d/1ByNed2JLVnrKvZpJ4Kj19ugHp7FIVKcf/view?usp=sharing,New
+IND_34,IND_BS_01,Branches page title should  display correctly,Branches page title is displayed twice,"1.open Branches page option
+2.Look for page title",Minor,Low,https://drive.google.com/file/d/1U1pZ4_cVwetKOGhRyz5AyoPNFcva4obm/view?usp=sharing,New
+IND_35,IND_BS_02,Should display error or warning message if search button works without giving input while clicking,No error message or warning message is displayed,"1.open Branches page option
+2.Look for search button
+3.Click search button without giving any input",Minor,Low,https://drive.google.com/file/d/1P62o-DdLmj_HY8HB9Td_yq7GSlzRtzb-/view?usp=sharing,New
+IND_36,IND_BS_04,All states with indian coffee house branches should be present in state selection field,Only one state option(Kerala) is present ,"1.open Branches page option
+2.Look for state search field
+3.Select state using dropdown button",Minor,Low,https://drive.google.com/file/d/1hzsiJLCi0-PcFksP2xm34IL1GMIoDupq/view?usp=sharing,New
+IND_37,IND_BS_05,Edit option should be available if values entered are wrong using dropdown button in search fields,No edit option found,"1.open Branches page option
+2.Look for  search field
+3.Select wrong entries using dropdown button",Minor,Low,https://drive.google.com/file/d/17tslmPeLhIfxVuoRsPHcDC_dAyNsjEbS/view?usp=sharing,New
+IND_38,IND_BS_07,Error message should be shown for wrong entry,No error message  is displayed,"1.open Branches page option
+2.Look for  search field
+3.Select wrong entries using dropdown button
+4.Click search button",Minor,Low,https://drive.google.com/file/d/1Oqxq2_5V4nhaUULA_xapUpN7P1JVNObw/view?usp=sharing,New
+IND_39,IND_BS_09,"""Our branches across India"" subtitle is not suitable because page only displays  branches across kerala So it should be avoided","Displayed wrong subtitle ""Our branches across India""which is not suitable for the page","1.open branches page option
+2.Look for subtitle ""Our branches across India""",Minor,Low,https://drive.google.com/file/d/1BN-mDxj3bg53ifMcsfjc1x9L3AjezrmR/view?usp=sharing,New
+IND_40,IND_BS_10,Should display corresponding photo belongs to the searched indian coffee house,Displayed the same photo for each search results which is not belongs to the searched coffee house,"1.open branches page option
+2.Select entries using dropdown button
+3.Click search button
+4.Check photos in search results",Minor,Low,https://drive.google.com/file/d/1fyWrPWWwN4OQWo1ODTv1IsP3WBOf61La/view?usp=sharing,New
+IND_41,IND_BS_11,Should display Proper google map link or Location link ,No link is displayed,"1.open branches page option
+2.Select entries using dropdown button
+3.Click search button
+4.Check google map links or loction links in search results",Major,Medium,https://drive.google.com/file/d/17pLfe2o557lO1c8Ez9cZbFr_KdkbsGjh/view?usp=sharing,New
+IND_42,IND_BS_12,Should display all branch addresses correctly,Mistakes found in addresses,"1.open branches page option
+2.Select entries using dropdown button
+3.Click search button
+4.Check Address of each coffee house",Trivial,Low,https://drive.google.com/file/d/1G_Ju3gB2qY91FM8AYMfwvGIHqUIZfjKf/view?usp=sharing,New
+IND_43,IND_NU_01,News update page title should  display correctly,News update page title is displayed twice,"1.open News update page option
+2.Look for page title",Minor,Low,https://drive.google.com/file/d/10CkqCvv6S5eCRzqqEVxVn0tpKAfM1auM/view?usp=sharing,New
+IND_44,IND_NU_02,News given in the News update page should be up-to-date,News given in the News update page are not up-to-date,"1.open News update page option
+2.Look for news given
+3.Check the news given",Major,Medium,https://drive.google.com/file/d/1A8ncJFd_alr8oXj-fh_0YAlsEMAMcQw6/view?usp=sharing,New
+IND_45,IND_NU_03,Photos in the news update page should be viewed when selected,Can't able to select photos for viewing,"1.open News update page option
+2.Look for news given
+3.Select the photos in the news given",Minor,Low,https://drive.google.com/file/d/1PlAgPfm9y4f0MFgoTmbACAjpfDjWooIq/view?usp=sharing,New
+IND_46,IND_NU_04,News and photos given should be proper,Same news and photos are given twice,"1.open News update page option
+2.Look for news given
+3.Check the news and photos given",Minor,Low,https://drive.google.com/file/d/1GOFmOApVLt0KJT74-pElOvWAIdJw_5Vx/view?usp=sharing,New
+IND_47,IND_GL_01,Gallery page title should  display correctly,Gallery page title is displayed twice,"1.open Gallery page option
+2.Look for page title",Minor,Low,https://drive.google.com/file/d/1qifCOr4M9RaPy_WNmvMkM3WCwCcpMsEv/view?usp=sharing,New
+IND_48,IND_GL_02,Photos should display directly in the gallery,No photos are displayed directly in gallery,"1.open Gallery page option
+2.Look for photos",Major,Medium,https://drive.google.com/file/d/1m5aU7lQJE8CB3Popus5SebCaUwbM0TIS/view?usp=sharing,New
+IND_49,IND_GL_03,The way of displaying photos while clicking search button should not be apt for a gallery page,Photos are displayed while clicking search button,"1.open Gallery page option
+2.Look for photos
+3.Click search button",Minor,High,https://drive.google.com/file/d/18-j51lfCkyv8UaAaJ2L_PchixvDABKou/view?usp=sharing,New
+IND_50,IND_RS_01,Resources page title should  display correctly,Resources page title is displayed twice,"1.open Resources page option
+2.Look for page title",Minor,Low,https://drive.google.com/file/d/1VlaXgskjTqnrEKyS_MHgZkft74szRFm9/view?usp=sharing,New
+IND_51,IND_RS_02,Resource Page should display the contents included in the page,No contents displayed,"1.open Resources page option
+2.Look for contents",Major,High,https://drive.google.com/file/d/1sa_o9fGL_31uFLwqY-99snaFgF-TZVFu/view?usp=sharing,New
+IND_52,IND_CT_01,Contact page title should  display correctly,Contact page title is displayed twice,"1.open Contact page option
+2.Look for page title",Minor,Low,https://drive.google.com/file/d/1rPxlfewzkMrKoHKIaqzR2vBqwuHEFj4o/view?usp=sharing,New
+IND_53,IND_CT_04,Name field should only accept alphabet values,Name field accepting all type of values ,"1.open contactpage
+2.Look for enquiry portion
+3.Enter a name consisting of all characters including special and numeric contents",Minor,Low,https://drive.google.com/file/d/1CHvCRkQYVpxJZ3CfZ_gKzuWFmQZsv6JB/view?usp=sharing,New
+IND_54,IND_CT_05,Phone number field should only accept numeric values,Phone number field accepting all type of values ,"1.open contact page
+2.Look for enquiry portion
+3.Enter number including characters and symbols",Minor,Low,https://drive.google.com/file/d/1DW0UbkvaBu8XYtrkcAQvW1woW0hvDhp9/view?usp=sharing,New
+IND_55,IND_CT_08,Send button should work properly,Send button is not working,"1.open contact page
+2.Look for enquiry portion
+3.Enter values in fields
+4.Click on Send button",Major,High,https://drive.google.com/file/d/1ogU8PM9uFBqBzgGjy9skbZoiYf5V2qEi/view?usp=sharing,New
