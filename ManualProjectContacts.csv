@@ -1,0 +1,31 @@
+INDIAN COFFEE HOUSE,,,,,,
+Type : Business website,,,,Tested by : RAHUL R,,
+Verified by : Rugma Raghav,,,,Date : 17/06/2023,,
+Browser name : Google chrome,,,,Browser version : 114.0.5735.134,,
+         Contact               ,,,,,,
+TEST ID,TEST DESCRIPTION,TEST PROCEDURE,TEST DATA,EXPECTED RESULT,ACTUAL RESULT,STATUS
+IND_CT_01,Check whether Contact page title is correctly displayed in the page,"1.open Contact page option
+2.Look for page title",N/A,Contact page title should  display correctly,Contact page title is displayed twice,Fail
+IND_CT_02,Check whether Contact informations in the page is displayed correctly,"1.open Contact page option
+2.Look for contact informations",N/A,Contact informations should display correctly,Contact informations are displayed correctly,Pass
+IND_CT_03,Check whether all required fields are present in the enquiry portion of contact field,"1.open contact page
+2.Look for fields in enquiry portion",N/A,all required fields should be present in the enquiry portion,all required fields are present,pass
+IND_CT_04,Check whether name field in enquiry portion only accepts alphabet values ,"1.open contactpage
+2.Look for enquiry portion
+3.Enter a name consisting of all characters including special and numeric contents",James%456&,Should only accept alphabet values,accepting all type of values ,fail
+IND_CT_05,Check whether phone number field in enquiry portion only accepts numeric values ,"1.open contact page
+2.Look for enquiry portion
+3.Enter number including characters and symbols",845@8m121A,Should only accept numeric values,accepting all type of values ,fail
+IND_CT_06,Check whether email field in enquiry portion accepts all type of values,"1.open contact page
+2.Look for enquiry portion
+3.Enter emailid including characters, special characters and numbers",Hari95@gmail.com,Should accept all type of values,accepting all type of values ,pass
+IND_CT_07,Check whether message field in enquiry portion works properly,"1.open contact page
+2.Look for enquiry portion
+3.Write a message in message box portion",why are you not  including mutton dishes?,Message field should work properly,Message field worked properly,pass
+IND_CT_08,Check whether the Send button in the enquiry portion works properly,"1.open contact page
+2.Look for enquiry portion
+3.Enter values in fields
+4.Click on Send button","Basheer
+8475156405
+bash@gmail.com
+why are you not  including mutton dishes?",Send button should work properly,Send button is not working,fail
