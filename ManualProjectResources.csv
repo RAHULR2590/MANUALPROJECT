@@ -1,0 +1,10 @@
+INDIAN COFFEE HOUSE,,,,,,
+Type : Business website,,,,Tested by : RAHUL R,,
+Verified by : Rugma Raghav,,,,Date : 17/06/2023,,
+Browser name : Google chrome,,,,Browser version : 114.0.5735.134,,
+               Resources,,,,,,
+TEST ID,TEST DESCRIPTION,TEST PROCEDURE,TEST DATA,EXPECTED RESULT,ACTUAL RESULT,STATUS
+IND_RS_01,Check whether Resources page title is correctly displayed in the page,"1.open Resources page option
+2.Look for page title",N/A,Resources page title should  display correctly,Resources page title is displayed twice,Fail
+IND_RS_02,Check whether Resources page contents are displayed correctly,"1.open Resources page option
+2.Look for contents",N/A,Should display the contents,No content displayed,Fail
