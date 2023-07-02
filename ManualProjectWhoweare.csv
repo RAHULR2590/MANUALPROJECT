@@ -1,0 +1,99 @@
+INDIAN COFFEE HOUSE,,,,,,
+Type : Business website,,,,Tested by : RAHUL R,,
+Verified by : Rugma Raghav,,,,Date : 17/06/2023,,
+Browser name : Google chrome,,,,Browser version : 114.0.5735.134,,
+                        Who we are,,,,,,
+TEST ID,TEST DESCRIPTION,TEST PROCEDURE,TEST DATA,EXPECTED RESULT,ACTUAL RESULT,STATUS
+IND_WA_01,Check whether dropdown button is present in Who we are page link option,"1.open indian coffee house site
+2.Select Who we are page option
+3.Look for dropdown button",N/A,Dropdown button should be present,Dropdown button is present,pass
+IND_WA_02,Check whether dropdown button in who we are link works properly,"1.open indian coffee house site
+2.Select Who we are page option
+3.Click on dropdown button",N/A,Dropdown button should work properly,Dropdown button worked properly,pass
+                   About us,,,,,,
+IND_WA_03,Check whether About us page title is correctly displayed in the page,"1.click on Who we are page option
+2.Select About us page
+3.Look for about us page title",N/A,Should display About us page title  correctly,About us page title is displayed twice,Fail
+IND_WA_04,Check whether the content have any grammatical errors or mistakes,"1.click on Who we are page option
+2.open About us page
+3.Check content errors and mistakes",N/A,Grammatical errors and spelling mistakes should not be there,Content is error free,pass
+IND_WA_05,Check whether content below About us page is displayed correctly,"
+1.click on Who we are page option
+2.open About us page
+3.Check the content",N/A,Should display content correctly,Content is exact copy of the content below Who we are title in home page,Fail
+IND_WA_06,Check whether alignment of the page is correct,"1.click on Who we are page option
+2.open About us page
+3.Look alignment of the page",N/A,alignment should be correct,alignment is correct,pass
+               History,,,,,,
+IND_WA_07,Check whether History page title is correctly displayed in the page,"1.click Who we are page option
+2.Select History page
+3.Look for History page title",N/A,Should display Historypage title  correctly,History page title is displayed twice,Fail
+IND_WA_08,Check whether the content have  errors and spelling mistakes mistakes,"1.click on Who we are page option
+2.open History page
+3.Check content errors and mistakes",N/A,Errors and spelling mistakes should not be there,Errors and spelling  mistakes  are there,Fail
+IND_WA_09,Check whether alignment of the page is correct,"1.click on Who we are page option
+2.open History page
+3.Look alignment of the page",N/A,alignment should be correct,alignment is correct,pass
+                        Board of Directors,,,,,,
+IND_WA_10,Check whether Board of directors page title is correctly displayed in the page,"1.click Who we are page option
+2.Select Board of Directors page
+3.Look for Board of directors page title",N/A,Should display Board of Directors page title  correctly,Board of Directors page title is displayed twice,Fail
+IND_WA_11,Check whether the photos are aligned  correctly,"1.click Who we are page option
+2.open Board of Directors page
+3.check alignment of photos",N/A,Photos should be aligned correctly,Photos are aligned correctly,pass
+IND_WA_12,Check whether the size of the photos are same,"1.click Who we are page option
+2.open Board of Directors page
+3.check size of photos",N/A,Size of the photos should be same,Size of the photos are not same,Fail
+                         About Founder,,,,,,
+IND_WA_13,Check whether About founder page title is correctly displayed in the page,"1.click Who we are page option
+2.Select About founder page
+3.Look for About founder page title",N/A,Should display About founder page title  correctly,About founder page title is displayed twice,Fail
+IND_WA_14,Check whether the content have any  errors and mistakes,"1.click on Who we are page option
+2.open About founder page
+3.Check content errors and mistakes",N/A, Errors and  mistakes should not be there,Errors and  mistakes  are there,Fail
+IND_WA_15,Check whether image in the page displayed properly,"1.click on Who we are page option
+2.open About founder page
+3.Look for image",N/A,should  display image properly,Image is not displayed properly,Fail
+IND_WA_16,Check whether alignment of the page is correct,"1.click on Who we are page option
+2.open About founder page
+3.Look alignment of the page",N/A,alignment should be correct,alignment is correct,pass
+                          Message from President,,,,,,
+IND_WA_17,Check whether Message from President page title is correctly displayed in the page,"1.click Who we are page option
+2.Select Message from President  page
+3.Look for Message from President  page title",N/A,Should display Message from president page title  correctly,Message from President  page title is displayed twice,Fail
+IND_WA_18,Check whether the content have any errors and spelling mistakes,"1.click on Who we are page option
+2.open Message from President page
+3.Check content errors and mistakes",N/A,Errors and spelling mistakes should not be there, Errors and  spelling mistakes  are there,Fail
+IND_WA_19,Check whether alignment of the page is correct,"1.click on Who we are page option
+2.open Message from President page
+3.Look alignment of the page",N/A,alignment should be correct,alignment is not correct,Fail
+IND_WA_20,Check whether  photo of the president is clear,"1.click on Who we are page option
+2.open Message from President page
+3.Look for the photo",N/A,photo should be clear,Photo is clear,pass
+                        Message from Secretary,,,,,,
+IND_WA_21,Check whether Message from Secretary page title is correctly displayed in the page,"1.click Who we are page option
+2.Select Message from Secretary  page
+3.Look for Message from Secreatary  page title",N/A,Should display Message from secretary page title  correctly,Message from Secretary  page title is displayed twice,Fail
+IND_WA_22,Check whether the content have any errors and spelling mistakes,"1.click on Who we are page option
+2.open Message from Secretary page
+3.Check content errors and mistakes",N/A,Errors and spelling mistakes should not be there, Errors and  spelling mistakes  are there,Fail
+IND_WA_23,Check whether alignment of the page is correct,"1.click on Who we are page option
+2.open Message from Secretary page
+3.Look alignment of the page",N/A,alignment should be correct,alignment is  correct,pass
+IND_WA_24,Check whether  photo of the secretary is clear,"1.click on Who we are page option
+2.open Message from Secretary page
+3.Look for the photo",N/A,photo should be clear,Photo is clear,pass
+                        Growth history,,,,,,
+IND_WA_25,Check whether  Growth history page title is correctly displayed in the page,"1.click Who we are page option
+2.Select Growth history  page
+3.Look for Growth history  page title",N/A,Should display Growth history page title  correctly,Growth history  page title is displayed twice,Fail
+IND_WA_26,Check whether content below Growth history  is displayed correctly,"
+1.click on Who we are page option
+2.open Growth history page
+3.Check the content",N/A, Should display content correctly,Content is exact copy of the content below History in Who are we page option,Fail
+IND_WA_27,Check whether the content have any errors and spelling mistakes,"1.click on Who we are page option
+2.open Growth history page
+3.Check content errors and mistakes",N/A,Errors and spelling mistakes should not be there, Errors and  spelling mistakes  are there,Fail
+IND_WA_28,Check whether alignment of the page is correct,"1.click on Who we are page option
+2.open Growth history page
+3.Look alignment of the page",N/A,alignment should be correct,alignment is  correct,pass
